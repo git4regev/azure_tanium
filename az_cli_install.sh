@@ -9,3 +9,8 @@ gpgcheck=1
 gpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/azure-cli.repo
 
 sudo dnf install azure-cli
+
+sudo pip3 install azure.identity
+sudo pip3 install azure.mgmt.resource
+sudo pip3 install azure.mgmt.compute
+sudo pip3 install azure.mgmt.network
